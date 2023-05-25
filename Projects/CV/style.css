@@ -1,0 +1,172 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 1319px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 6px 6px 20px rgba(0,0,0,0.1);
+    margin:40px;
+}
+aside {
+    width: 370;
+    background: #1E2939;
+}
+.cv-photo {
+    margin-top: 40px;
+}
+.header-secondary {
+    color:#FFFFFF;
+}
+.contact-links {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.bold {
+    font-weight: 700;
+}
+.list-secondary {
+    color: #FB6D3A;
+    Font-size: 14px;
+    line-height: 24px;
+    margin-left:0px;
+    padding-left:0px;
+    list-style-position: inside;
+}
+.list-secondary-item {
+    color: white;
+}
+.contact-block {
+    margin-top: 51px;
+    margin-left: 40px
+}
+.list-block1 {
+    margin-top: 47px;
+    margin-left: 40px
+}
+.list-block2 {
+    margin-top: 44px;
+    margin-left: 40px
+}
+.block2 {
+    margin-left: 88px;
+}
+.Personality-block {
+    margin-right: 342px ;
+    margin-top: 102px;
+}
+.front-end-string {
+    font-style: Bold;
+    font-size:14px;
+    line-height: 17px;
+    margin:0px;
+}
+.name-string {
+    Font-style: Bold;
+    Font-size: 45px;
+    Line-height: 55px;
+    margin-top: 19px;
+    margin-bottom: 10px;    
+}
+.personal-description {
+    Font-size: 14px;
+    Line-height: 24px;
+    Font-style: Regular;
+    color: #595959;
+}
+.projects-block {
+    margin-top:40px;
+    margin-right:257px;
+    Font-style: Bold;
+    Font-size: 14px;
+    Line-height: 24px;
+    color: 
+    #000000;
+}
+.project-string {
+    margin:0px;
+    padding:0px;
+    Font-style: Bold;
+    Font-size: 22px;
+    Line-height: 27px;
+}
+.project-list {
+    margin:0px;
+    padding:0px;
+    padding-top:8px;
+    margin-left:0px;
+    padding-left:0px;
+    list-style-position: inside;
+    font-weight: 700;
+    Font-size: 14px;
+    Line-height: 24px;
+    color: 
+    #000000;
+}
+.project-strings {
+    color: #595959;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+    font-weight: 400;
+    text-decoration: none;
+}
+.work-experience-block {
+    margin-top:51px;
+}
+.orange-color {
+    color: 
+    #FB6D3A;
+}
+.header {
+    Font-style: Bold;
+    Font-size: 22px;
+    Line-height: 27px;
+    Line-height: 100%;
+}
+.position {
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 20px;
+}
+.time {
+    Font-style: Regular;
+    Font-size: 12px;
+    Line-height: 15px;
+    Line-height: 100%;
+    color: 
+    #A8A8A8;
+}
+.list {
+    margin-left:0px;
+    padding-left:0px;
+    list-style-position: inside;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+    color: #595959;
+}
+.management-string {
+    Font-style: Bold;
+    Font-size: 14px;
+    Line-height: 17px;
+    Line-height: 100%
+}
+.black-color {
+    color:#000000
+}
+.manager-glory-block {
+    margin-top:16px;
+    margin: 0px;
+}
+.manager-glory-lcc-block {
+    margin-top:20px;
+}
