@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myChangeFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+function myComebackFunction() {
+  document.getElementById("demo").innerHTML = "Try it.";
+}
+</script>
+</head>
+<body>
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myChangeFunction()">Try it</button>
+
+<button type="button" onclick="myComebackFunction()">Comeback</button>
+
+</body>
+</html>

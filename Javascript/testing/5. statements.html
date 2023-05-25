@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<!-- Ilustrujemy 3 zmienne w js: var, let, const. 
+
+Var deklarujemy zmienne ktore mozemy zmienic w kodzie np: var a,b,c; i kilka linijek pozniej mozemy znowu
+zapisac var a,b,c; i przypisac inne zmienne. 
+
+Let dziala podobnie z tego ze do let x,y,z, string; nie mozemy przypisac ponowie w dalszym kodzie czyli nie
+mozemy let x,y,z, string; zapisac ponowinie.
+
+Const to zmienna gdzie Const a=5; nie mozemy dalej zmienic tej funkcji. Nie mozemy zmienic a = 3 itd.. -->
+
+
+<script>
+    var a,b,c;
+    a=4
+    b=2
+    c=b+a
+
+    let x,y,z, string;
+    x=5
+    y=10
+    z = x + y
+    string = 'Hello world'
+
+    document.getElementById('demo1').innerHTML = c
+
+    document.getElementById('demo2').innerHTML = z
+    
+    document.getElementById('demo3').innerHTML = string
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="7.functions.js"></script>
+</head>
+<body>
+
+    <h2>Hello world</h2>
+
+    <p>I project my first function</p>
+    <p id="demo">wtf</p>
+    <button onclick="myClick()">Click</button>
+    <button onclick="myUnClick()">UnClick</button>
+    <script>
+        function myClick() {
+            let x,y, result;
+            x = 5
+            y = 6
+            result = x*y
+            document.getElementById('demo').innerHTML = result
+        }
+        function myUnClick() {
+            let x,y;
+            x = 5
+            y = 6
+            result = x-y
+            document.getElementById('demo').innerHTML = result
+        }
+    </script>
+</body>
