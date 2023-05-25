@@ -1,0 +1,29 @@
+
+body {
+    background-color: rgb(206, 238, 240);
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+ol {
+    list-style-type: upper-roman; /* typ numerkow, liczby greckie, litery, itd... */
+}
+ul {
+    list-style-type: square; /* typ oznaczeń */
+    text-align: center;
+    list-style-position: inside; /* wyznaczanie pozycji */
+    line-height: 1.6;
+    /* list-style-image: url("../images/checkmark.png");   
+    list-style: square url("../images/checkmark.png") inside;    wczytuje zdjecie jako oznaczenie listy*/
+}   
+
+ul li:nth-child(2) /* zmienia tylko wybrana przez nas wartosc */ {
+    color: red;
+}
+
+/* ul lub li lub zostawic i wtedy zostanie zedytowane wszysto */ul::marker {
+    color: red; /* zmienia kolor tylko oznaczenia listy */
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only >>5$"; /* zmienia oznaczenie na napis, znak itd */
+}

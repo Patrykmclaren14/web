@@ -1,0 +1,33 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+    color: purple;
+    font-family: sans-serif;
+}
+input, button {
+    font: inherit;
+}
+
+p {
+    /* text-indent: 10em; akapit*/
+    /* text-align: ; umiejscowienie */
+    /* text-decoration: ; dekoracja */
+    /* line-height:10; odstepy pion */
+    /* letter-spacing: 1em; odstepy pomiedzy literami*/
+    /* word-spacing: 2em; odstepy pomiedzy wyrazami */
+    /* font-weight: 700; grubosc tekstu */
+}
+a {
+    color: hotpink;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:visited {
+    color:purple
+}
+a:hover {
+    color: dodgerblue
+}
+a:active {
+    color: red
+}

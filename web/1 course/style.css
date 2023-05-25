@@ -1,0 +1,28 @@
+Body {
+    background-color: antiquewhite;
+}
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    color:limegreen;
+}
+.container {
+    border: 4px double red;
+    outline: solid;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+.circle {
+    margin: 3rem auto;
+    background-color: goldenrod;
+    width: 150px;
+    height: 150px;
+    border: 2px dotted black;
+    border-radius: 76px;
+    outline: 1px solid red;
+    outline-offset: 0.25rem;
+}
